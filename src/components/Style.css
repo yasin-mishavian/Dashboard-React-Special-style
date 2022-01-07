@@ -1,0 +1,312 @@
+@font-face {
+   font-family: Yekan;
+   src: url(./assets/font/Yekan.ttf);
+}
+
+*{
+   font-family: Yekan;
+}
+
+.text-Style{
+   text-decoration: none;
+}
+
+.bg-Style{
+   background: linear-gradient(35deg,rgba(4, 4, 26, 0.719) 25%,rgba(12, 8, 27, 0.822) 59%,rgb(0, 1, 43) 59%);
+   background-size: cover;
+   background-position: center;
+}
+
+/*----------------------------------------------------   animation   ----------------------------------------------------*/
+
+.left-active{
+   animation-name:left ;
+   animation-duration: 2s;
+   animation-fill-mode: backwards;
+}
+
+.down-active{
+   animation-name:down ;
+   animation-duration: 2s;
+   animation-fill-mode: backwards;
+}
+
+@keyframes left{
+   0%{ 
+       transform: translateX(-7%);
+       opacity: 0;
+   }
+   100%{
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+
+@keyframes down{
+   0%{ 
+       transform: translatey(5%);
+       opacity: 0;
+   }
+   100%{
+       transform: translatey(0);
+       opacity: 1;
+   }
+}
+
+/*----------------------------------------------------   Sidebar-Style   ----------------------------------------------------*/
+
+.picture-Style{
+   width: 8vh;
+   height: 8vh;
+}
+.picture-Style2{
+   background: linear-gradient(rgba(236, 229, 229, 0.11),rgba(250, 250, 250, 0.205));
+   border-radius: 20px;
+}
+
+.sidebar-Style1{
+   height: 100%;
+   background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.93)) , url(./../components/assets/img/17.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: -5px 7px 25px #999(37, 36, 36); 
+}
+
+.sidebar-Style3{
+   font-size: 18px;
+   cursor: pointer;
+   transition: all .4s;
+}
+
+.sidebar-Style3:hover{
+   background-color: rgba(189, 176, 176, 0.342);
+   border-radius: 8px;
+   transform: translateY(-2px);
+}
+
+/*----------------------------------------------------   Navbar-Style   ----------------------------------------------------*/
+/* rgba(0, 34, 66, 0.7 ),rgba(0, 11, 105, 0.425))  */
+.bgNav-Style{
+   background: linear-gradient(rgb(68, 68, 68),rgba(27, 27, 27, 0.9)) ;
+   box-shadow: -5px 7px 25px rgb(37, 36, 36);
+}
+
+.btn-Style{
+   color: red;
+   border-radius: 50%;
+   padding: 5px 10.5px;
+   background: transparent;
+   border: none;
+}
+.btn-Style:hover{
+   background-color: #eee;
+   transform: translateY(-1px);
+}
+.input-Style{
+   width: 60%;
+   background-color: transparent;
+   border: none;
+   border-radius: 0px;
+   border-bottom: 2px solid white;
+   transition: all .8s;
+
+}
+.input-Style:focus{
+   background: transparent;
+   box-shadow: none;
+   border-bottom: 2px solid rgb(255, 0, 0);
+   
+}
+
+.img-Style{
+   width: 23px;
+   height: 23px;
+   cursor: pointer;
+}
+.img-Style :hover{
+   color: rgb(253, 191, 34);
+}
+.img-Style2{
+   width: 23px;
+   height: 23px;
+   cursor: pointer;
+}
+.img-Style2 :hover{
+   color: rgb(32, 119, 218);
+}
+.img-Style3{
+   width: 23px;
+   height: 23px;
+   cursor: pointer;   
+}
+.img-Style3 :hover{
+   color: rgb(255, 17, 0);
+}
+
+/*----------------------------------------------------   Card-Style   ----------------------------------------------------*/
+
+.Card-Style{
+   height: 200px;
+   background: linear-gradient(rgba(236, 229, 229, 0.11),rgba(250, 250, 250, 0.205));
+   border-radius: 20px;
+   box-shadow: 1px 2px 5px rgb(37, 36, 36);
+   transition: all .4s;
+}
+
+.Card-Style:hover{
+   box-shadow: 2px 3px 25px rgb(128, 128, 128);
+   transform: rotateY(-1px);
+}
+
+.Cardimg-Style{
+   width: 52px;
+   height: 52px;
+   cursor: pointer;
+}
+
+.ref-Style{
+   width: 23px;
+   height: 23px;
+   cursor: pointer;
+}
+
+.opacity1{
+   animation-name:opacity1 ;
+   animation-duration: 2s;
+   animation-fill-mode: backwards;
+   animation-delay: 0.3s;
+}
+
+@keyframes opacity1{
+   0%{         
+       opacity: 0;
+   }
+   100%{
+       opacity: 1;
+   }
+}
+.opacity2{
+   animation-name:opacity2 ;
+   animation-fill-mode: backwards;
+   animation-duration: 2s;
+   animation-delay: 0.6s;
+}
+
+@keyframes opacity2{
+   0%{         
+       opacity: 0;
+   }
+   100%{
+       opacity: 1;
+   }
+}
+
+/*----------------------------------------------------   progress-Style   ----------------------------------------------------*/
+
+.progres-Style{
+   background: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.466));
+   box-shadow: 1px 2px 20px rgb(41, 40, 40);
+   border-radius: 20px;
+}
+
+/*----------------------------------------------------   Task-Style   ----------------------------------------------------*/
+
+.task-Style{
+   width: 21px;
+   height: 21px;
+   cursor: pointer;
+   color: red;
+}
+
+.task-Style2{
+   width: 22px;
+   height: 22px;
+   cursor: pointer;
+}
+
+/*----------------------------------------------------   Post-Style   ----------------------------------------------------*/
+
+.Post-Style{
+   width: 23px;
+   height: 23px;
+}
+
+.bgPost-Style{
+   background: linear-gradient(rgba(236, 229, 229, 0.11),rgba(250, 250, 250, 0.205));
+}
+
+/*----------------------------------------------------   Activity-Style   ----------------------------------------------------*/
+
+.activity-Style{
+   background: linear-gradient(rgba(20, 20, 20, 0.904),rgba(14, 14, 14, 0.904));
+   border-radius: 10px;
+   box-shadow: 1px 2px 20px rgb(75, 72, 72);
+}
+
+/*----------------------------------------------------   Loading-Style   ----------------------------------------------------*/
+
+.app:not(:empty) + .sk-cube-grid {
+   display: none;
+ }
+ 
+ .sk-cube-grid {
+   width: 80px;
+   height: 80px;
+   margin: 43vh auto;
+ }
+ 
+ .sk-cube-grid .sk-cube {
+   width: 33%;
+   height: 33%;
+   background-color: rgb(0, 102, 255);
+   float: left;
+   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+ }
+ 
+ .sk-cube-grid .sk-cube1 {
+   animation-delay: 0.2s;
+ }
+ 
+ .sk-cube-grid .sk-cube2 {
+   animation-delay: 0.3s;
+ }
+ 
+ .sk-cube-grid .sk-cube3 {
+   animation-delay: 0.4s;
+ }
+ 
+ .sk-cube-grid .sk-cube4 {
+   animation-delay: 0.1s;
+ }
+ 
+ .sk-cube-grid .sk-cube5 {
+   animation-delay: 0.2s;
+ }
+ 
+ .sk-cube-grid .sk-cube6 {
+   animation-delay: 0.3s;
+ }
+ 
+ .sk-cube-grid .sk-cube7 {
+   animation-delay: 0s;
+ }
+ 
+ .sk-cube-grid .sk-cube8 {
+   animation-delay: 0.1s;
+ }
+ 
+ .sk-cube-grid .sk-cube9 {
+   animation-delay: 0.2s;
+ }
+ 
+ @keyframes sk-cubeGridScaleDelay {
+   0%,
+   70%,
+   100% {
+     transform: scale3D(1, 1, 1);
+   }
+   35% {
+     transform: scale3D(0, 0, 1);
+   }
+ }
