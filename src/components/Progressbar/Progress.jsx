@@ -1,5 +1,6 @@
 import React from 'react'
 import TaskList from './../Tasks/TaskList'
+import './Progress.scss';
 
 const Progress = () => {
     return (

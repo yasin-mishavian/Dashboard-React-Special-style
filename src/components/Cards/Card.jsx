@@ -4,6 +4,7 @@ import {FaRegMoneyBillAlt} from 'react-icons/fa';
 import {FaUserFriends} from 'react-icons/fa';
 import {FaChartLine} from 'react-icons/fa';
 import {FaShoppingCart} from 'react-icons/fa';
+import './Card.scss';
 
 const Card = () => {
     return (

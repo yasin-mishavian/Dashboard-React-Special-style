@@ -1,5 +1,5 @@
 import React from 'react'
-import Tickets from './Tickets'
+import Tickets from '../Tickets/Tickets'
 import Payments from './Payments'
 
 const Tables = () => {

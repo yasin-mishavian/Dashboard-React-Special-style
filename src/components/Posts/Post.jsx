@@ -4,12 +4,12 @@ import {MdLocationOn} from 'react-icons/md';
 import {BsCameraFill} from 'react-icons/bs';
 import {FaRegClock} from 'react-icons/fa';
 import {FaRegCalendarAlt} from 'react-icons/fa';
-
+import './Post.scss';
 
 const Post = () => {
     return (
             <>
-                <div className='card rounded bgPost-Style'>
+                <div className='card rounded bgPost-Style mt-5 mt-sm-0'>
                     <div className='card-body '>
                         <h4 className='text-warning text-center mb-4 mx-auto'>پست جدید</h4>
                         <ul className='text-center py-3 mx-auto'>

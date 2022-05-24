@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./components/assets/font/Yekan.ttf);
+}
+
+*{
+  font-family: Yekan;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-Style{
+  background: linear-gradient(35deg,rgba(4, 4, 26, 0.719) 25%,rgba(12, 8, 27, 0.822) 59%,rgb(0, 1, 43) 59%);
+  background-size: cover;
+  background-position: center;
+}

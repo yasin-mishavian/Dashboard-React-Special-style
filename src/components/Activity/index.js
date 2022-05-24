@@ -1,22 +1,8 @@
 import React from 'react'
-import Activity from './Activity';
-import Post from './Post';
-import $ from "jquery";
+import Activity from './Activity/Activity';
+import Post from '../Posts/Post';
 
-const Activities = () => {
-
-
-    $(window).scroll(function () {
-    const position = $(this).scrollTop();
-    if (position >= 300) {
-        $(".bgPost-Style").addClass("opacity1");
-        $(".active-Activity").addClass("opacity2");
-    } else {
-        $(".bgPost-Style").removeClass("opacity1");
-        $(".active-Activity").removeClass("opacity2");
-    }
-    });
-
+const Combination = () => {
 
     return (
         <>
@@ -38,4 +24,4 @@ const Activities = () => {
     )
 }
 
-export default Activities
+export default Combination
